@@ -1,6 +1,5 @@
 Hello there.
-
---Images to gif  (featuring imageio)--
+# Images to gif  (featuring imageio)--
 
 TO-DO
 - allow user to provide images to be converted into a gif
@@ -18,11 +17,13 @@ REQUIREMENTS
         - imageio
 
 
-Gif 文件生成工具
--- 1.第一个执行参数指定图片根目录，一级子目录下是图片文件, 每个子目录可以生成一个gif文件
--- 2.第二个参数指定间隔时间 单位秒
--- 3.图片是PNG或JPG扩展名
--- 4.一次生成两个gif文件，一个按指定间隔时间生成，一个按2秒生成由于慢速浏览。
+# Gif 文件生成工具
+- 1.第一个执行参数指定图片根目录，一级子目录下是图片文件, 每个子目录可以生成一个gif文件
+- 2.第二个参数指定间隔时间 单位秒
+- 3.图片是PNG或JPG扩展名
+- 4.一次生成两个gif文件，一个按指定间隔时间生成，一个按2秒生成由于慢速浏览。
 
 使用示例：
-# python gifyDir.py D:\DCIM\106APPLE\100APPLE D:\DCIM\gif 0.5
+````
+python gifyDir.py D:\DCIM\106APPLE\100APPLE D:\DCIM\gif 0.5
+```
