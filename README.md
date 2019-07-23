@@ -26,4 +26,4 @@ REQUIREMENTS
 使用示例：
 ````
 python gifyDir.py D:\DCIM\106APPLE\100APPLE D:\DCIM\gif 0.5
-```
+````
